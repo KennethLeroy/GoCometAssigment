@@ -25,37 +25,60 @@ public class StepDefinitions {
     public void theScenarioPasses() {
     }
 
-//    @Given("The user is on the home page")
-//    public void the_user_is_on_the_home_page() {
-//        // Write code here that turns the phrase above into concrete actions
-////        throw new io.cucumber.java.PendingException();
-//        driver.get("https://www.demoblaze.com/");
-//    }
-//    @When("The user navigates to the first panel")
-//    public void the_user_navigates_to_the_first_panel() {
-//        // Write code here that turns the phrase above into concrete actions
-////        throw new io.cucumber.java.PendingException();
-//    }
-//    @Then("The user sees products on the first panel")
-//    public void the_user_sees_products_on_the_first_panel() {
-//        // Write code here that turns the phrase above into concrete actions
-////        throw new io.cucumber.java.PendingException();
-//    }
-//    @When("The user navigates to the second panel")
-//    public void the_user_navigates_to_the_second_panel() {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new io.cucumber.java.PendingException();
-//    }
-//
-//    @Then("The user sees products on the second panel")
-//    public void the_user_sees_products_on_the_second_panel() {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new io.cucumber.java.PendingException();
-//    }
-//    @After()
-//    public void closeBrowser(){
-//        driver.quit();
-//    }
 
+    @Given("The user is on the home page")
+    public void theUserIsOnTheHomePage() {
+        
+    }
 
+    @When("The user clicks on {string}")
+    public void theUserClicksOn(String arg0) {
+        
+    }
+
+    @Then("The user sees details of {string}")
+    public void theUserSeesDetailsOf(String arg0) {
+
+    }
+
+    @Given("The user is on the product page")
+    public void theUserIsOnTheProductPage() {
+
+    }
+
+    @When("The user clicks on the add to cart button")
+    public void theUserClicksOnTheAddToCartButton() {
+    }
+
+    @Then("The product gets added to their cart")
+    public void theProductGetsAddedToTheirCart() {
+    }
+
+    @Given("The user is on the cart page")
+    public void theUserIsOnTheCartPage() {
+    }
+
+    @When("The user clicks on the delete button")
+    public void theUserClicksOnTheDeleteButton() {
+    }
+
+    @Then("The product gets deleted from their cart")
+    public void theProductGetsDeletedFromTheirCart() {
+    }
+
+    @When("The user clicks on the place order button")
+    public void theUserClicksOnThePlaceOrderButton() {
+    }
+
+    @Then("The order form gets displayed")
+    public void theOrderFormGetsDisplayed() {
+    }
+
+    @When("The user fills the form")
+    public void theUserFillsTheForm() {
+    }
+
+    @Then("The purchase confirmation gets displayed")
+    public void thePurchaseConfirmationGetsDisplayed() {
+    }
 }
